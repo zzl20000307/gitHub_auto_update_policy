@@ -22,7 +22,11 @@
 - 添加定时任务
   -首先创建一个xx.cron文件
   -向该文件中编辑定时任务的执行周期，例`3,15 * * * * /path/your_cron_task.sh`代表每小时的第3分钟和第15分钟执行该shell脚本，`3,15 8-11 * * 1 /path/your_cron_task.sh`代表每周一上午8点到11点的第3和第15分钟执行该脚本。[编写格式的查询地址](https://zhuanlan.zhihu.com/p/353029881)
-  -向crontab中添加定时任务，终端命令：`shell crontab /path/xx.cron`
+  
+  -向crontab中添加定时任务，终端命令为`shell crontab /path/xx.cron`。
+  -查看是否添加成功，终端命令为`crontab -l`。
+- 删除所有定时定时任务
+  终端命令为`crontab -r`。  
   
 
 
