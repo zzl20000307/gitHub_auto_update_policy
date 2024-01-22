@@ -8,5 +8,5 @@
 
 ## 2. 编写自动更新脚本
 
-创建一个 Bash 脚本，例如 `auto_update_github.sh`，具体内容见
+创建一个 Bash 脚本，例如 `auto_update_github.sh`，具体内容见==auto_update_github.sh==。
 
