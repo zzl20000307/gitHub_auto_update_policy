@@ -25,7 +25,9 @@
   - 向**crontab**中添加定时任务，终端命令为`crontab /path/xx.cron`。
   - 查看是否添加成功，终端命令为`crontab -l`。
 - 删除所有定时定时任务
-  - 终端命令为`crontab -r`。  
+  - 终端命令为`crontab -r`。
+- 检查cron的运行状态
+  - 终端命令为`systemctl cron status`。
   
 
 
